@@ -9,7 +9,7 @@ cask "astra-dial" do
   desc "Turns the Cosmic Byte Astra keyboard knob into a mode wheel"
   homepage "https://github.com/retr0ripper/astra-dial"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Astra Dial.app"
 
